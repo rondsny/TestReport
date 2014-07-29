@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<title>UCTTs</title>
+
+<style type="text/css">
+body,div,dl,dt,dd,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0;border:1px solid #666}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+
+caption,th{text-align:left}
+q:before,q:after{content:''}
+body{font:12px/1.6 arial,helvetica,"微软雅黑",sans-serif}
+
+a:link{color:#369;text-decoration:none}
+a:visited{color:#669;text-decoration:none}
+a:hover{color:#fff;text-decoration:none;background:#039}
+a:active{color:#fff;text-decoration:none;background:#f93}
+
+textarea{resize:none}
+button{cursor:pointer;line-height:1.2}
+a img{vertical-align:text-bottom}
+
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:100%;font-weight:normal}
+h3{font-size:200%;font-weight:900}
+h4{margin-top:12px;font-size:130%;font-weight:900}
+h5{font-size:120%}
+
+th{height:30px;width:50px;text-align:center;white-space:nowrap;font:12px/1.6;border:1px solid #666}
+td{height:30px;text-align:position;white-space:nowrap;font:12px/1.6;border:1px solid #666}
+
+.point_content{margin:5px 20px;padding:5px;background-color:#F9F9F9}
+.point_content_edit{margin:5px 20px;padding:5px;font:12px/1.6}
+</style>
+
+</head>
+
+<body>
+
+
+<div style="margin:10px 20px">
+	
+	<h3>##tittle##</h3>
+
+	<h4>测试结果：</h4>
+	<div class="point_content_edit">
+		##cb_result##
+	</div>
+	
+	<h4>评价与风险：</h4>
+	<div class="point_content">
+		##editor_risk##
+	</div>
+
+	<h4>测试点说明：</h4>
+	<div class="point_content">
+		##editor_point##
+	</div>
+
+	<h4>主要问题：</h4>
+	<div class="point_content">
+		##main_bugs##
+	</div>
+	
+	<h4>当前版本缺陷分类：</h4>
+	<div class="point_content_edit" style="margin-left:50px">
+		##image_catPicUrl##
+	</div>
+	
+	<h4>缺陷统计：</h4>
+	
+	<div class="point_content_edit">
+		<table>
+		<thead><tr>
+			<th style="text-align:center;width:100px">序号</th>
+			<th style="text-align:center;width:100px">版本</th>
+			<th style="text-align:center;width:100px"><strong>当前发现</strong></th>
+			<th style="text-align:center;width:100px"><strong>当前未关闭</strong></th>
+			<th style="text-align:center;width:100px"><strong>未关闭累计</strong></th>
+		</tr></thead>
+		<tbody>
+			##data_bugs##
+		</table>
+	</div>
+		
+	<h4>缺陷趋势：</h4>
+	<div class="point_content_edit">
+		##image_bugPicUrl##
+	</div>
+
+	<h4>测试资源：</h4>
+	<div class="point_content_edit">
+		##editor_resource##
+	</div>
+
+	<h4>其他轮次：</h4>
+	<div class="point_content_edit">
+		##other_tests##
+	</div>
+	
+	<hr/>
+	<div class="point_content_edit">
+		##right_info##
+	</div>
+	
+</div>
+</body>

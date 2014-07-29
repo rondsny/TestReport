@@ -1,0 +1,25 @@
+@charset "utf-8";
+body,div,dl,dt,dd,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+
+caption,th{text-align:left}
+q:before,q:after{content:''}
+body{font:12px/1.6 "Microsoft JhengHei",arial,helvetica,sans-serif}
+
+a:link{color:#369;text-decoration:none}
+a:visited{color:#669;text-decoration:none}
+a:hover{color:#fff;text-decoration:none;background:#039}
+a:active{color:#fff;text-decoration:none;background:#f93}
+
+textarea{resize:none}
+button{cursor:pointer;line-height:1.2}
+a img{vertical-align:text-bottom}
+
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:100%;font-weight:normal}
+h3{font-size:200%;font-weight:900}
+h4{margin-top:12px;font-size:130%}
+h5{font-size:120%}
+
+td{height:30px;width:50px;text-align:position}
