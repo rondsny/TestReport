@@ -1,13 +1,13 @@
-TestReport ÊÇÒ»¸öÓÃÓÚÅÀÈ¡ redmine ÏµÍ³bugÈ±Ïİ²¢Éú³É²âÊÔ±¨¸æÊı¾İµÄJSP webÓ¦ÓÃ¡£
+TestReport æ˜¯ä¸€ä¸ªç”¨äºçˆ¬å– redmine ç³»ç»Ÿbugç¼ºé™·å¹¶ç”Ÿæˆæµ‹è¯•æŠ¥å‘Šæ•°æ®çš„JSP webåº”ç”¨ã€‚
 
-resource Ä¿Â¼ÏÂµÄconfig.propertise ÓÃÓÚ±£´æÏà¹ØÅäÖÃ¡£ÔÚ²¿ÊğÊ±ĞèÒªÍê³ÉÒÔÏÂÅäÖÃ£º
+resource ç›®å½•ä¸‹çš„config.propertise ç”¨äºä¿å­˜ç›¸å…³é…ç½®ã€‚åœ¨éƒ¨ç½²æ—¶éœ€è¦å®Œæˆä»¥ä¸‹é…ç½®ï¼š
 PT_URL =http://dns.freemine.com
 MAIL_HOST =mail.test.com
 MAIL_FROM =name1@test.com
 MAIL_TOS =name2@test.com|name3@test.com
 
-·ñÔò£¬ÎŞ·¨Õı³£ÔËĞĞTestRepot¡£
+å¦åˆ™ï¼Œæ— æ³•æ­£å¸¸è¿è¡ŒTestRepotã€‚
 
-TestReport ÍÆ¼ö²¿ÊğÔÚTomcat ÏÂ¡£
+TestReport æ¨èéƒ¨ç½²åœ¨Tomcat ä¸‹ã€‚
 
-ÈçÓĞÏà¹ØÒÉÎÊ»ò½¨Òé£¬ËæÊ±¿ÉÒÔÔÚÏÂÃæÆÀÂÛ·´À¡¡£
+å¦‚æœ‰ç›¸å…³ç–‘é—®æˆ–å»ºè®®ï¼Œéšæ—¶å¯ä»¥åœ¨ä¸‹é¢è¯„è®ºåé¦ˆã€‚
