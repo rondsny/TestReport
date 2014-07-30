@@ -2,7 +2,7 @@ TestReport 是一个用于爬取 redmine 系统bug缺陷并生成测试报告数
 
 resource 目录下的config.properties 用于保存相关配置。在部署时需要完成以下配置：
 
-PT_URL =http://www.freemine.org
+PT_URL =http://www.redmine.org
 
 MAIL_HOST =mail.test.com
 
